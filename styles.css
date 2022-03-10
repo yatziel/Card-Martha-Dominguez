@@ -18,6 +18,9 @@ body {
 img {
 	width: 100%;
 }
+.cover {
+	display: none;
+}
 
 .header-logo{
 	background-color: #F2F2E6;
@@ -142,4 +145,13 @@ font-weight: 600;
 text-decoration: none;
 background-color: #CEB06B;
 transition: opacity 500ms;
+}
+
+@media screen and (min-width:480px) { 
+	header, main, footer,aside {
+		display: none;
+	}
+	.cover {
+		display: block;
+	}
 }
