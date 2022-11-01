@@ -21,7 +21,9 @@ img {
 .cover {
 	display: none;
 }
-
+.header {
+	background-color: #F2F2E6;
+}
 .header-logo{
 	background-color: #F2F2E6;
 	padding-top: 3rem;
